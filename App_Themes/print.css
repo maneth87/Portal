@@ -1,0 +1,613 @@
+﻿/*for kyocera printer*/
+
+@page {
+    size: A4;
+    margin: 0;
+    /*font-family: Arial;*/
+    font-size: 8pt;
+    width: 210mm;
+    height: 297mm;
+}
+
+html {
+    margin: 0;
+}
+
+body {
+    font-family: Arial;
+    font-size: 8pt;
+}
+
+.print_content {
+    /*font-family: Arial;*/
+    font-size: 8pt;
+    width: 200mm;
+    border: 1px solid black;
+}
+
+.policy_number {
+    position: fixed;
+    margin-top: 39px;
+    margin-left: 600px;
+}
+
+.customer_id {
+    position: fixed;
+    margin-top: 63px;
+    margin-left: 600px;
+}
+
+.insured_name {
+    position: fixed;
+    margin-left: 270px;
+    margin-top: 86px;
+    font-family: 'Khmer OS Content';
+    font-size: 7pt;
+}
+
+.id_card {
+    position: fixed;
+    margin-left: 600px;
+    margin-top: 87px;
+}
+
+.dob {
+    position: fixed;
+    margin-top: 102px;
+    margin-left: 270px;
+
+}
+
+.age {
+    position: fixed;
+    margin-top: 118px;
+    margin-left: 270px;
+
+}
+
+.gender {
+    position: fixed;
+    margin-top: 118px;
+    margin-left: 460px;
+    width: 50px;
+    font-family: 'Khmer OS Content';
+    font-size: 7pt;
+}
+
+.phone {
+   position: fixed;
+    margin-top: 134px;
+    margin-left: 270px;
+
+}
+
+.address {
+    position: fixed;
+    margin-top: 150px;
+    margin-left: 270px;
+    font-family: 'Khmer OS Content';
+    font-size: 7pt;
+    
+}
+
+
+
+.insurance_plan {
+    position: fixed;
+    margin-top: 190px;
+    margin-left: 270px;
+    font-family: 'Khmer OS Content';
+    font-size: 7pt;
+}
+
+.standard_premium {
+    position: fixed;
+    margin-top: 192px;
+    margin-left: 590px;
+   
+    /*background-color: black;*/
+
+}
+
+.sum_insured {
+    position: fixed;
+    margin-top: 206px;
+    margin-left: 270px;
+}
+
+.extra_premium {
+    position: fixed;
+    margin-top: 208px;
+    margin-left: 590px;
+}
+
+.coverage_period {
+    position: fixed;
+    margin-top: 222px;
+    margin-left: 270px;
+}
+
+.payment_period {
+    position: fixed;
+    margin-top: 238px;
+    margin-left: 270px;
+}
+
+.total_premium {
+    position: fixed;
+    margin-top: 240px;
+    margin-left: 590px;
+}
+
+.effective_date {
+    position: fixed;
+    margin-top: 254px;
+    margin-left: 270px;
+}
+
+
+.mode_of_payment {
+    position: fixed;
+    margin-top: 256px;
+    margin-left: 590px;
+    font-family: 'Khmer OS Content';
+    font-size: 7pt;
+}
+
+
+.expiry_date {
+    position: fixed;
+    margin-top: 270px;
+    margin-left: 270px;
+}
+
+.due_date {
+    position: fixed;
+    margin-top: 272px;
+    margin-left: 590px;
+    font-family: 'Khmer OS Content';
+    font-size: 7pt;
+}
+
+.maturity_date {
+    position: fixed;
+    margin-top: 286px;
+    margin-left: 270px;
+}
+
+
+.payment_clause {
+    position: fixed;
+    margin-top: 322px;
+    margin-left: 65px;
+    height: 220px;
+    font-size: 5.8pt;
+    font-family: 'Khmer OS Content';
+    font-weight: bold;
+    /*display: none;*/
+
+}
+
+
+
+.benefit1 {
+    position: fixed;
+    margin-top: 547px;
+    margin-left: 100px;
+    font-family: 'Khmer OS Content';
+    font-size: 7pt;
+}
+.relationship1 {
+    position: fixed;
+    margin-top: 547px;
+    margin-left: 290px;
+    font-family: 'Khmer OS Content';
+    font-size: 7pt;
+}
+.percentage1 {
+    position: fixed;
+    margin-top:547px;
+    margin-left: 420px;
+}
+
+
+.benefit2 {
+    position: fixed;
+    margin-top: 563px;
+    margin-left: 100px;
+    font-family: 'Khmer OS Content';
+    font-size: 7pt;
+}
+.relationship2 {
+    position: absolute;
+    margin-top: 563px;
+    margin-left: 290px;
+    font-family: 'Khmer OS Content';
+    font-size: 8pt;
+}
+.percentage2 {
+    position: fixed;
+    margin-top: 563px;
+    margin-left: 420px;
+}
+
+.benefit3 {
+    position: fixed;
+    margin-top: 579px;
+    margin-left: 100px;
+    font-family: 'Khmer OS Content';
+    font-size: 7pt;
+}
+.relationship3 {
+    position: fixed;
+    margin-top: 579px;
+    margin-left: 290px;
+    font-family: 'Khmer OS Content';
+    font-size: 7pt;
+}
+.percentage3 {
+    position: fixed;
+    margin-top: 579px;
+    margin-left: 420px;
+}
+
+.benefit4 {
+    position: fixed;
+    margin-top: 595px;
+    margin-left: 100px;
+    font-family: 'Khmer OS Content';
+    font-size: 7pt;
+}
+.relationship4 {
+    position: fixed;
+    margin-top: 595px;
+    margin-left: 290px;
+    font-family: 'Khmer OS Content';
+    font-size: 7pt;
+}
+.percentage4 {
+    position: fixed;
+    margin-top: 595px;
+    margin-left: 420px;
+}
+
+.benefit5 {
+    position: fixed;
+    margin-top: 611px;
+    margin-left: 100px;
+    font-family: 'Khmer OS Content';
+    font-size: 7pt;
+}
+.relationship5 {
+    position: fixed;
+    margin-top: 611px;
+    margin-left: 290px;
+    font-family: 'Khmer OS Content';
+    font-size: 7pt;
+}
+.percentage5 {
+    position: fixed;
+    margin-top: 611px;
+    margin-left: 420px;
+}
+
+/*-------------------------------------*/
+
+.surrender_value_table {
+
+    position: fixed;
+    margin-top: 630px;
+    margin-left: 298px;
+    font-weight: bold;
+
+}
+
+/*-------------------------------------*/
+
+.policy_year_1, .policy_year_2, .policy_year_3, .policy_year_4, .policy_year_5, .policy_year_6, .policy_year_7, .policy_year_8, .policy_year_9, .policy_year_10,
+.policy_year_11, .policy_year_12, .policy_year_13, .policy_year_14, .policy_year_15, .policy_year_16, .policy_year_17, .policy_year_18, .policy_year_19, .policy_year_20,
+.policy_year_21, .policy_year_22, .policy_year_23, .policy_year_24 {
+    font-size: 7pt;
+    font-family: Arial;
+    line-height: 10pt;
+}
+
+
+.surrender_value_1, .surrender_value_2, .surrender_value_3, .surrender_value_4, .surrender_value_5, .surrender_value_6, .surrender_value_7, .surrender_value_8, .surrender_value_9, .surrender_value_10,
+.surrender_value_11, .surrender_value_12, .surrender_value_13, .surrender_value_14, .surrender_value_15, .surrender_value_16, .surrender_value_17, .surrender_value_18, .surrender_value_19, .surrender_value_20,
+.surrender_value_21, .surrender_value_22, .surrender_value_23, .surrender_value_24 {
+    font-size: 7pt;
+    font-family: Arial;
+}
+
+.policy_year_1 {
+    position: fixed;
+    margin-top: 692px;
+    margin-left: 90px;
+}
+
+.surrender_value_1 {
+    position: fixed;
+    margin-top: 692px;
+    margin-left: 160px;
+}
+.policy_year_7 {
+    position: fixed;
+    margin-top: 692px;
+    margin-left: 255px;
+}
+
+.surrender_value_7 {
+    position: fixed;
+    margin-top: 692px;
+    margin-left: 320px;
+}
+.policy_year_13 {
+    position: fixed;
+    margin-top: 692px;
+    margin-left: 420px;
+}
+
+.surrender_value_13 {
+    position: fixed;
+    margin-top: 692px;
+    margin-left: 485px;
+}
+.policy_year_19 {
+    position: fixed;
+    margin-top: 692px;
+    margin-left: 580px;
+}
+
+.surrender_value_19 {
+    position: fixed;
+    margin-top: 692px;
+    margin-left: 650px;
+}
+
+/*-------------------------------------*/
+
+.policy_year_2 {
+    position: fixed;
+    margin-top: 704px;
+    margin-left: 90px;
+}
+
+.surrender_value_2 {
+    position: fixed;
+    margin-top: 704px;
+    margin-left: 160px;
+}
+.policy_year_8 {
+    position: fixed;
+    margin-top: 704px;
+    margin-left: 255px;
+}
+
+.surrender_value_8 {
+    position: fixed;
+    margin-top: 704px;
+    margin-left: 320px;
+}
+.policy_year_14 {
+    position: fixed;
+    margin-top: 704px;
+    margin-left: 420px;
+}
+
+.surrender_value_14 {
+    position: fixed;
+    margin-top: 704px;
+    margin-left: 485px;
+}
+.policy_year_20 {
+    position: fixed;
+    margin-top: 704px;
+    margin-left: 580px;
+}
+
+.surrender_value_20 {
+    position: fixed;
+    margin-top: 704px;
+    margin-left: 650px;
+}
+
+/*-------------------------------------*/
+
+.policy_year_3 {
+    position: fixed;
+    margin-top: 716px;
+    margin-left: 90px;
+}
+
+.surrender_value_3 {
+    position: fixed;
+    margin-top: 716px;
+    margin-left: 160px;
+}
+.policy_year_9 {
+    position: fixed;
+    margin-top: 716px;
+    margin-left: 255px;
+}
+
+.surrender_value_9 {
+    position: fixed;
+    margin-top: 716px;
+    margin-left: 320px;
+}
+.policy_year_15 {
+    position: fixed;
+    margin-top: 716px;
+    margin-left: 420px;
+}
+
+.surrender_value_15 {
+    position: fixed;
+    margin-top: 716px;
+    margin-left: 485px;
+}
+
+.policy_year_21 {
+    position: fixed;
+    margin-top: 716px;
+    margin-left: 580px;
+}
+
+.surrender_value_21 {
+    position: fixed;
+    margin-top: 716px;
+    margin-left: 650px;
+}
+
+
+/*-------------------------------------*/
+
+.policy_year_4 {
+    position: fixed;
+    margin-top: 728px;
+    margin-left: 90px;
+}
+
+.surrender_value_4 {
+    position: fixed;
+    margin-top: 728px;
+    margin-left: 160px;
+}
+.policy_year_10 {
+    position: fixed;
+    margin-top: 728px;
+    margin-left: 255px;
+}
+
+.surrender_value_10 {
+    position: fixed;
+    margin-top: 728px;
+    margin-left: 320px;
+}
+.policy_year_16 {
+    position: fixed;
+    margin-top: 728px;
+    margin-left: 420px;
+}
+
+.surrender_value_16 {
+    position: fixed;
+    margin-top: 728px;
+    margin-left: 485px;
+}
+.policy_year_22 {
+    position: fixed;
+    margin-top: 728px;
+    margin-left: 580px;
+}
+
+.surrender_value_22 {
+    position: fixed;
+    margin-top: 728px;
+    margin-left: 650px;
+}
+
+/*----------------------------------------*/
+
+
+.policy_year_5 {
+    position: fixed;
+    margin-top: 740px;
+    margin-left: 90px;
+}
+
+.surrender_value_5 {
+    position: fixed;
+    margin-top: 740px;
+    margin-left: 160px;
+}
+.policy_year_11 {
+    position: fixed;
+    margin-top: 740px;
+    margin-left: 255px;
+}
+
+.surrender_value_11 {
+    position: fixed;
+    margin-top: 740px;
+    margin-left: 320px;
+}
+.policy_year_17 {
+    position: fixed;
+    margin-top: 740px;
+    margin-left: 420px;
+}
+
+.surrender_value_17 {
+    position: fixed;
+    margin-top: 740px;
+    margin-left: 485px;
+}
+.policy_year_23 {
+    position: fixed;
+    margin-top: 740px;
+    margin-left: 580px;
+}
+
+.surrender_value_23 {
+    position: fixed;
+    margin-top: 740px;
+    margin-left: 650px;
+}
+
+/*-------------------------------------*/
+
+.policy_year_6 {
+    position: fixed;
+    margin-top: 752px;
+    margin-left: 90px;
+}
+
+.surrender_value_6 {
+    position: fixed;
+    margin-top: 752px;
+    margin-left: 160px;
+}
+.policy_year_12 {
+    position: fixed;
+    margin-top: 752px;
+    margin-left: 255px;
+}
+
+.surrender_value_12 {
+    position: fixed;
+    margin-top: 752px;
+    margin-left: 320px;
+}
+.policy_year_18 {
+    position: fixed;
+    margin-top: 752px;
+    margin-left: 420px;
+}
+
+.surrender_value_18 {
+    position: fixed;
+    margin-top: 752px;
+    margin-left: 485px;
+}
+.policy_year_24 {
+    position: fixed;
+    margin-top: 752px;
+    margin-left: 580px;
+}
+
+.surrender_value_24 {
+    position: fixed;
+    margin-top: 752px;
+    margin-left: 650px;
+}
+
+/*----------------------------------------*/
+
+
+.issue_date {
+    position: fixed;
+    margin-top: 830px;
+    margin-left: 588px;
+}

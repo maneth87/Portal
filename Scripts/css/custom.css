@@ -1,0 +1,287 @@
+﻿
+.body-login {
+    background-color: #21275B;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    border: solid 2px blue;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+.cernter-page {
+    /*position:absolute;
+    /*width:300px;
+    height:300px;*/
+    /*border:solid 2px red;*/
+    /* top:70px;
+    bottom:30px;
+    right:0;
+    left:0;
+
+    margin:auto;*/
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.cernter-page1 {
+    width: auto;
+    height: auto;
+    position: static;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.login-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+
+.login-title {
+    color: white;
+}
+
+.login-remember {
+    color: white;
+    font-size: 9pt;
+    font-weight: normal;
+}
+
+.space-vert {
+    margin-top: 20px;
+}
+
+.footer-pos {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 600px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+body {
+    padding-top: 70px;
+}
+
+.welcome {
+    top: 40px;
+    position: static;
+}
+
+.td-title1 {
+    background-color: #21275B;
+    color: white;
+    padding-left: 0px;
+    vertical-align: middle;
+    padding-top: 0px;
+    height: 40px;
+    font-weight: bold;
+}
+
+.star {
+    color: red;
+    padding-left: 5px;
+}
+
+.div-title1 {
+    background-color: #21275B;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    vertical-align: middle;
+    padding-top: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.button-space {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.button-hidden {
+    display: none;
+}
+
+.welcome-page {
+    height: 400px;
+    width: 400px;
+    text-align: center;
+}
+
+.lable-bold {
+    font-weight: bold;
+}
+
+.row-center {
+    text-align: center;
+}
+
+.div-beneficiary {
+    border: 2px solid #21275B;
+    /*margin-top:20px; margin-bottom:40px;*/
+    padding-left: 20px;
+}
+
+.khmer-font {
+    font-family: 'Khmer OS Content';
+    font-size: 9pt;
+}
+
+.camlife-color {
+    color: #21275B;
+}
+
+.p-buntton-next {
+    float: right;
+    width: 100px;
+}
+
+.p-buntton-back {
+    float: left;
+    width: 100px;
+}
+
+.right {
+    float: right;
+}
+
+.button-center {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.margin-top-5 {
+    margin-top: 8px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.margin-left-20 {
+    margin-left: 20px;
+}
+
+.margin-right-20 {
+    margin-right: 20px;
+}
+
+.footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.color-success {
+    color: #198754;
+}
+
+.color-error {
+    color: #dc3545;
+}
+
+.color-warning {
+    color: #ffc107;
+}
+
+.doc-status-remarks-confirm {
+    color: green;
+    font-family: Calibri;
+    font-size: 8pt;
+}
+
+.doc-status-remarks-reject {
+    color: red;
+    font-family: Calibri;
+    font-size: 9pt;
+}
+
+.labelAppTypeN {
+    padding: 2px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-size: 6pt;
+    margin-left: 5px;
+}
+
+.labelAppTypeR {
+    padding: 2px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: 6pt;
+    margin-left: 5px;
+}
+
+.modal-body-scroll {
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+#spinner {
+    height: 30px;
+    width: 30px;
+    border: 7px solid;
+    border-radius: 50%;
+    border-color: red #21275B #21275B #21275B;
+    animation: rotate 1s linear infinite;
+    position: absolute;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(365deg);
+    }
+}
+
+.TextBoxShadowRequired {
+ 
+
+ 
+        /*box-shadow: rgba(255, 0, 0, 0.4) 0px 0px 0px 1px, /* Red outer shadow */
+                /*    rgba(255, 0, 0, 0.65) 0px 2px 4px -1px, /* Red offset shadow */
+                  /*  rgba(255, 255, 255, 0.08) 0px 1px 0px inset !important; /* White inset shadow */
+
+                 
+box-shadow: rgba(135, 206, 235, 0.4) 0px 0px 0px 2px, /* Sky blue outer shadow */
+                    rgba(135, 206, 235, 0.65) 0px 4px 6px -1px, /* Sky blue offset shadow */
+                    rgba(255, 255, 255, 0.08) 0px 1px 0px inset !important; /* White inset shadow */
+}

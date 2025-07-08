@@ -1,0 +1,143 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Content.master.cs" Inherits="Pages_Content" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <link href="../Camlife_Icon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link href="../Scripts/css/custom.css" rel="stylesheet" />
+    <%-- stylesheet--%>
+    <link href="../Scripts/bootstrap/335/css/bootstrap.min.css" rel="stylesheet" />
+    <%-- <link href="../Scripts/bootstrap/533/css/bootstrap.css" rel="stylesheet" />--%>
+    <%-- javascript--%>
+    <%--  <script src="../../Scripts/jquery-1.9.0.min.js"></script>--%>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../../Scripts/bootstrap/335/js/bootstrap.min.js"></script>
+
+    <title>Camlife application</title>
+
+</head>
+
+<body>
+    <form id="MainForm" runat="server">
+      
+        <%--     <div class="nav-login">
+            Welcome <b>
+                <asp:LoginName ID="LgName" runat="server" />
+                !</b>|
+            <asp:LoginStatus ID="LgStatus" runat="server"  LogoutAction="Redirect" LogoutPageUrl="~/login.aspx?url_key=BF24A18E-6F21-44E7-9758-714D1AB8918D" />
+            &nbsp;
+        </div>--%>
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="../../default.aspx"><span>
+                        <img alt="Home" src="../../App_Themes/images/new_logo.png" width="20" height="25" /></span>&nbsp;&nbsp;Camlife</a>
+
+                </div>
+
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-left">
+
+                        <%-- <li class="active">
+                            <a href="default.aspx">Home</a>
+                        </li>--%>
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">New Business<b class="caret"></b></a>
+                            <ul class=" dropdown-menu">
+                                <li class="dropdown-header"><a href="../NB/frmAppForm.aspx">Application</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Documents<b class="caret"></b></a>
+                            <ul class=" dropdown-menu">
+                                <li class="dropdown-header"><a href="../Documents/frmUploadDocs.aspx">Upload Documents</a></li>
+                              <%--  <li class="dropdown-header"><a href="../Documents/frmRegistrationDocuments.aspx">Upload Registration Documents</a></li>--%>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Inquiries<b class="caret"></b></a>
+                            <ul class=" dropdown-menu">
+                                <li class="dropdown-header"><a href="../Inquiries/frmAppInquiry.aspx">Application</a></li>
+                               <%-- <li class="dropdown-header"><a href="../Inquiries/frmRegistrationDocInquiry.aspx">Registration Documents</a></li>--%>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Reports<b class="caret"></b></a>
+                            <ul class=" dropdown-menu">
+                                <li class="dropdown-header"><a href="../Report/frmSaleReport.aspx">Sales</a></li>
+                                 <li class="dropdown-header"><a href="../Report/frmAppPendingIssuePolicy.aspx">Application Pending Issue Policy</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Settings<b class="caret"></b></a>
+                            <ul class=" dropdown-menu">
+                                <li class="dropdown-header"><a href="../Setting/change_password.aspx">Change Password</a></li>
+                         
+                            </ul>
+
+                        </li>
+
+
+                        <li class="dropdown">
+
+                            <div style="margin-top: 15px; margin-left: 15px;">
+                                <strong>
+                                    <asp:LoginName ID="LoginName1" runat="server" />
+                                </strong>|
+            <asp:LoginStatus ID="LoginStatus1" runat="server" LogoutAction="RedirectToLoginPage" />
+                            </div>
+
+
+                        </li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <div class="container">
+            <%--  <div class=" welcome">
+                Welcome <strong>
+                    <asp:LoginName ID="LgName" runat="server" />
+                    !</strong>|
+            <asp:LoginStatus ID="LgStatus" runat="server" LogoutAction="RedirectToLoginPage" />
+            </div>--%>
+            <asp:ContentPlaceHolder ID="Main" runat="server">
+                <%-- Content --%>
+            </asp:ContentPlaceHolder>
+        </div>
+        <hr />
+        <footer>
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-12 camlife-color ">
+                        <p class="footer">&copy; <% Response.Write(System.DateTime.Now.Year.ToString()); %> - Cambodia Life Micro Insurance "CAMLIFE" Plc. </p>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </form>
+</body>
+</html>

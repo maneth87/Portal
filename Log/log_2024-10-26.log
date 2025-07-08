@@ -1,0 +1,28 @@
+12:45:51   Error occured on page login. Details: The source was not found, but some or all event logs could not be searched.  To create the source, you need permission to read all event logs to make sure that the new source name is unique.  Inaccessible logs: Security, State.=>   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLogInternal.VerifyAndCreateSource(String sourceName, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at MySql.Web.Security.MySQLMembershipProvider.WriteToEventLog(Exception e, String action)
+   at MySql.Web.Security.MySQLMembershipProvider.ValidateUser(String username, String password)
+   at login.btnSubmit_Click(Object sender, EventArgs e) in d:\SYSTEM\03-Portal-Multi-policy\login.aspx.cs:line 177
+
+12:46:31   Error occured on page login. Details: The source was not found, but some or all event logs could not be searched.  To create the source, you need permission to read all event logs to make sure that the new source name is unique.  Inaccessible logs: Security, State.=>   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLogInternal.VerifyAndCreateSource(String sourceName, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at MySql.Web.Security.MySQLMembershipProvider.WriteToEventLog(Exception e, String action)
+   at MySql.Web.Security.MySQLMembershipProvider.ValidateUser(String username, String password)
+   at login.btnSubmit_Click(Object sender, EventArgs e) in d:\SYSTEM\03-Portal-Multi-policy\login.aspx.cs:line 177
+
+13:45:39   Error block get token in class [LoginWebservice], detail:Unable to connect to the remote server
+
+13:45:47   Error block get api url in class [LoginWebservice], detail:Object reference not set to an instance of an object.
+
+13:46:02   Error block get token in class [LoginWebservice], detail:Unable to connect to the remote server
+
+13:46:05   Error block get api url in class [LoginWebservice], detail:Object reference not set to an instance of an object.
+
+13:46:13   Error block get token in class [LoginWebservice], detail:Unable to connect to the remote server
+

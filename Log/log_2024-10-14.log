@@ -1,0 +1,24 @@
+13:54:20   Error block get token in class [LoginWebservice], detail:Unable to connect to the remote server
+
+13:54:20   Error block get api url in class [LoginWebservice], detail:Object reference not set to an instance of an object.
+
+13:54:29   Error block get token in class [LoginWebservice], detail:Unable to connect to the remote server
+
+13:54:29   Error block get api url in class [LoginWebservice], detail:Object reference not set to an instance of an object.
+
+13:54:37   Error block get token in class [LoginWebservice], detail:Unable to connect to the remote server
+
+13:54:37   Error block get api url in class [LoginWebservice], detail:Object reference not set to an instance of an object.
+
+14:00:12   Error block get token in class [LoginWebservice], detail:The remote server returned an error: (500) Internal Server Error.
+
+14:00:12   Error block get api url in class [LoginWebservice], detail:Object reference not set to an instance of an object.
+
+14:00:14   Error block get token in class [LoginWebservice], detail:The remote server returned an error: (500) Internal Server Error.
+
+14:00:14   Error block get api url in class [LoginWebservice], detail:Object reference not set to an instance of an object.
+
+14:00:16   Error block get token in class [LoginWebservice], detail:The remote server returned an error: (500) Internal Server Error.
+
+14:00:16   Error block get api url in class [LoginWebservice], detail:Object reference not set to an instance of an object.
+
